@@ -1,5 +1,5 @@
 // URL del backend (cámbiala si tu servidor usa otro puerto)
-const API_URL = "http://localhost:3000";
+const API_URL = window.location.origin;
 
 const EMAIL_REGEX = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 
